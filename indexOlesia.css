@@ -1,0 +1,101 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.content {
+    transition: 700ms all linear;
+}
+
+#canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+body {
+  background-color: #000000;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+p , a {
+  font-family: 'Roboto';
+  color: #E5EAF4;
+  text-decoration: none;
+  font-size: 22px;
+  padding-bottom: 40px;
+}
+
+a {
+  color: #F3518B
+}
+
+.bullshit p {
+  font-size: 173px;
+  padding-bottom: 0px;
+}
+
+.content {
+  padding: 50px 60px 50px 60px;
+  position: relative;
+  min-height: 90vh;
+}
+
+.bullshit {
+  width: 1112px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.right {
+    position: absolute;
+    right: 60px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.bullshit p:hover {
+  /* color: #767676; */
+  text-shadow: #FFFFFF 0 0 5px, #FFFFFF 0 0 2px;
+}
+
+a:hover {
+
+  text-shadow: #FFFFFF 0 0 2px;
+}
+
+#B {
+  transform: rotate(180deg);
+  /* text-shadow: #FFFFFF 0 0 10px, #FFFFFF 0 0 2px; */
+}
+#U {
+  transform: rotate(90deg);
+  /* text-shadow: #FFFFFF 0 0 10px, #FFFFFF 0 0 2px; */
+}
+#L {
+  transform: rotate(180deg);
+  /* text-shadow: #FFFFFF 0 0 10px, #FFFFFF 0 0 2px; */
+}
+#SH {
+  transform: rotate(90deg);
+  /* text-shadow: #FFFFFF 0 0 10px, #FFFFFF 0 0 2px; */
+}
+#I {
+  transform: rotate(-90deg);
+  /* text-shadow: #FFFFFF 0 0 10px, #FFFFFF 0 0 2px; */
+}
+#T {
+  transform: rotate(180deg);
+  /* text-shadow: #FFFFFF 0 0 10px, #FFFFFF 0 0 2px; */
+}
