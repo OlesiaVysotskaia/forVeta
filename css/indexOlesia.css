@@ -29,7 +29,8 @@ p , a {
 }
 
 a {
-  color: #F3518B
+  color: #F3518B;
+  cursor: pointer;
 }
 
 .bullshit p {
@@ -71,7 +72,7 @@ a {
 }
 
 a:hover {
-
+  cursor: pointer;
   text-shadow: #FFFFFF 0 0 2px;
 }
 
