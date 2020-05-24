@@ -26,6 +26,7 @@ p , a {
   text-decoration: none;
   font-size: 22px;
   padding-bottom: 40px;
+  cursor: pointer;
 }
 
 a {
